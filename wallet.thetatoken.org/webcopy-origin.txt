@@ -1,0 +1,24 @@
+Uri: https://wallet.thetatoken.org/wallet/tokens/theta
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\wallet\tokens\theta.html
+Content Type: text/html
+
+Uri: https://wallet.thetatoken.org/favicon.ico
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://wallet.thetatoken.org/manifest.json
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\manifest.json
+Content Type: application/json
+
+Uri: https://wallet.thetatoken.org/static/css/main.105e3a65.chunk.css
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\static\css\main.105e3a65.chunk.css
+Content Type: text/css
+
+Uri: https://wallet.thetatoken.org/static/js/2.8e4216d4.chunk.js
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\static\js\2.8e4216d4.chunk.js
+Content Type: application/javascript
+
+Uri: https://wallet.thetatoken.org/static/js/main.e80bca49.chunk.js
+File Name: E:\CryptoSites\Theta_WALLET\wallet.thetatoken.org\static\js\main.e80bca49.chunk.js
+Content Type: application/javascript
+
