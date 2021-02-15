@@ -1,4 +1,6 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -13,7 +15,8 @@
   <div id="root">
     <div class="App WalletApp">
       <div class="NavBar">
-        <div style="display: flex; flex-direction: column;"><img class="NavBar__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png"><a class="NavBar__network-badge NavBar__network-badge--is-disabled">Mainnet</a></div>
+        <div style="display: flex; flex-direction: column;"><img class="NavBar__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png"><a
+            class="NavBar__network-badge NavBar__network-badge--is-disabled">Mainnet</a></div>
         <div class="NavBar__account">
           <div class="NavBar__wallet">
             <div class="NavBar__wallet-title">My Wallet:</div>
@@ -21,19 +24,21 @@
           </div>
         </div>
       </div>
-      <div class="TabBar undefined"><a class="TabBarItem TabBarItem--is-active" href="/wallet/tokens" aria-current="page"><img class="TabBarItem__icon" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet@2x.png"><img class="TabBarItem__icon-active" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet-active@2x.png">
+      <div class="TabBar undefined"><a class="TabBarItem TabBarItem--is-active" aria-current="page"><img class="TabBarItem__icon" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet@2x.png"><img
+            class="TabBarItem__icon-active" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet-active@2x.png">
           <div class="TabBarItem__title">Wallet</div>
-        </a><a class="TabBarItem"><img class="TabBarItem__icon" alt="Send" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/send@2x.png">
+        </a><button id="Send_Btn" class="TabBarItem" style="background: none;  border: none;"><img class="TabBarItem__icon" alt="Send" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/send@2x.png">
           <div class="TabBarItem__title">Send</div>
-        </a><a class="TabBarItem"><img class="TabBarItem__icon" alt="Receive" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/receive@2x.png">
+        </button><button id="Recieve_Btn" class="TabBarItem" style="background: none;border: none;"><img class="TabBarItem__icon" alt="Receive" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/receive@2x.png">
           <div class="TabBarItem__title">Receive</div>
-        </a><a class="TabBarItem" href="/wallet/stakes"><img class="TabBarItem__icon" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/stakes@2x.png"><img class="TabBarItem__icon-active" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tab-bar/stakes-active@2x.png">
+        </button><button id="Stake_Btn" class="TabBarItem" style="background: none;border: none;"><img class="TabBarItem__icon" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/stakes@2x.png"><img
+            class="TabBarItem__icon-active" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tab-bar/stakes-active@2x.png">
           <div class="TabBarItem__title">Stakes</div>
-        </a></div>
+        </button></div>
       <div class="Pages Pages--wallet">
         <div class="WalletPage">
           <div class="WalletPage__master-view">
-            <div class="WalletTokenList"><a class="WalletTokenListItem WalletTokenListItem--is-active" aria-current="page" href="/wallet/tokens/theta">
+            <div class="WalletTokenList"><a class="WalletTokenListItem WalletTokenListItem--is-active" aria-current="page">
                 <div class="WalletTokenListItem__token-container">
                   <div class="WalletTokenListItem__active-indicator"></div><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tokens/theta_large@2x.png" class="WalletTokenListItem__token-icon">
                   <div class="WalletTokenListItem__token-balance-container">
@@ -41,7 +46,7 @@
                     <div class="WalletTokenListItem__token-balance">0</div>
                   </div>
                 </div>
-              </a><a class="WalletTokenListItem" href="/wallet/tokens/tfuel">
+              </a><a class="WalletTokenListItem">
                 <div class="WalletTokenListItem__token-container">
                   <div class="WalletTokenListItem__active-indicator"></div><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tokens/tfuel_large@2x.png" class="WalletTokenListItem__token-icon">
                   <div class="WalletTokenListItem__token-balance-container">
@@ -65,97 +70,114 @@
       <div></div>
       <div class="UnsupportedDevice">
         <div class="UnsupportedDevice__content"><img class="UnsupportedDevice__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png">
-          <div class="UnsupportedDevice__title">This wallet is designed for desktop. Try our mobile wallets!</div><a class="UnsupportedDevice__app-store-badge" href="https://itunes.apple.com/app/theta-wallet/id1451094550?mt=8" target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/app-store@2x.png"></a><a class="UnsupportedDevice__app-store-badge" href="https://play.google.com/store/apps/details?id=org.theta.wallet" target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/google-play@2x.png"></a>
+          <div class="UnsupportedDevice__title">This wallet is designed for desktop. Try our mobile wallets!</div><a class="UnsupportedDevice__app-store-badge" href="https://itunes.apple.com/app/theta-wallet/id1451094550?mt=8" target="_blank"><img
+              src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/app-store@2x.png"></a><a class="UnsupportedDevice__app-store-badge" href="https://play.google.com/store/apps/details?id=org.theta.wallet"
+            target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/google-play@2x.png"></a>
         </div>
       </div>
     </div>
   </div>
-  <script>
-    ! function(e) {
-      function t(t) {
-        for (var n, l, a = t[0], f = t[1], i = t[2], c = 0, s = []; c < a.length; c++) l = a[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0;
-        for (n in f) Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
-        for (p && p(t); s.length;) s.shift()();
-        return u.push.apply(u, i || []), r()
-      }
 
-      function r() {
-        for (var e, t = 0; t < u.length; t++) {
-          for (var r = u[t], n = !0, a = 1; a < r.length; a++) {
-            var f = r[a];
-            0 !== o[f] && (n = !1)
-          }
-          n && (u.splice(t--, 1), e = l(l.s = r[0]))
-        }
-        return e
-      }
-      var n = {},
-        o = {
-          1: 0
-        },
-        u = [];
 
-      function l(t) {
-        if (n[t]) return n[t].exports;
-        var r = n[t] = {
-          i: t,
-          l: !1,
-          exports: {}
-        };
-        return e[t].call(r.exports, r, r.exports, l), r.l = !0, r.exports
-      }
-      l.m = e, l.c = n, l.d = function(e, t, r) {
-        l.o(e, t) || Object.defineProperty(e, t, {
-          enumerable: !0,
-          get: r
-        })
-      }, l.r = function(e) {
-        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
-          value: "Module"
-        }), Object.defineProperty(e, "__esModule", {
-          value: !0
-        })
-      }, l.t = function(e, t) {
-        if (1 & t && (e = l(e)), 8 & t) return e;
-        if (4 & t && "object" == typeof e && e && e.__esModule) return e;
-        var r = Object.create(null);
-        if (l.r(r), Object.defineProperty(r, "default", {
-            enumerable: !0,
-            value: e
-          }), 2 & t && "string" != typeof e)
-          for (var n in e) l.d(r, n, function(t) {
-            return e[t]
-          }.bind(null, n));
-        return r
-      }, l.n = function(e) {
-        var t = e && e.__esModule ? function() {
-          return e.default
-        } : function() {
-          return e
-        };
-        return l.d(t, "a", t), t
-      }, l.o = function(e, t) {
-        return Object.prototype.hasOwnProperty.call(e, t)
-      }, l.p = "/";
-      var a = this["webpackJsonptheta-wallet-web"] = this["webpackJsonptheta-wallet-web"] || [],
-        f = a.push.bind(a);
-      a.push = t, a = a.slice();
-      for (var i = 0; i < a.length; i++) t(a[i]);
-      var p = f;
-      r()
-    }([])
-  </script>
-  <script src="/static/js/2.8e4216d4.chunk.js"></script>
-  <script src="/static/js/main.e80bca49.chunk.js"></script>
   <div>
     <div style="position: fixed; inset: 0px auto auto 50%; transform: translate(-50%, 0%); z-index: 100;">
       <div></div>
     </div>
   </div>
-  <div class="ReactModalPortal"></div>
-  <div class="ReactModalPortal"></div>
 
 
 
+<style>
 
-</body></html>
+.ReactModalPortal{
+  display: none;
+  z-index: 1;
+}
+
+.Btn{
+  z-index:99999999999!important;
+
+}
+
+
+.modal{
+
+}
+
+
+</style>
+
+  <div id="ReactModalPortal_Send"class="ReactModalPortal">
+    <div class="ReactModal__Overlay ReactModal__Overlay--after-open ModalOverlay">
+      <div class="ReactModal__Content ReactModal__Content--after-open Modal" tabindex="-1" role="dialog">
+        <form >
+            <input class="Modal" id="change_button" type="button" value="close" onClick="change();"/>
+        </form>
+          <div class="SendModal">
+            <div class="SendModal__title">Send</div>
+            <div class="TxForm">
+              <div class="FormInputContainer">
+                <div class="FormInputContainer__title">Token</div>
+                <div class="FormInputContainer__input-container"><select class="BottomBorderInput" name="tokenType">
+                    <option value="theta">Theta (0)</option>
+                    <option value="tfuel">TFuel (0.0001)</option>
+                  </select></div>
+                <div class="FormInputContainer__error"></div>
+              </div>
+              <div class="FormInputContainer">
+                <div class="FormInputContainer__title">To</div>
+                <div class="FormInputContainer__input-container"><input class="BottomBorderInput" name="to" placeholder="Enter address" value=""></div>
+                <div class="FormInputContainer__error"></div>
+              </div>
+              <div class="FormInputContainer">
+                <div class="FormInputContainer__title"><span>Amount</span></div>
+                <div class="FormInputContainer__input-container"><input class="BottomBorderInput" type="text" name="amount" placeholder="Enter amount to send" value=""></div>
+                <div class="FormInputContainer__error"></div>
+              </div>
+              <div class="TxForm__fee-container">
+                <div class="">
+                  <div class="ValueWithTitle">
+                    <div class="ValueWithTitle__title"><span>Transaction Fee</span></div>
+                    <div class="ValueWithTitle__value">0.000001 TFuel</div>
+                  </div>
+                </div>
+              </div><a class="GradientButton undefined GradientButton--is-disabled">
+                <div class="GradientButton__title">Send</div>
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+<script>
+
+
+var modal = document.getElementById("ReactModalPortal_Send");
+var closeBtn = document.getElementsByClassName("Modal__close-button");
+// Get the button that opens the modal
+var btn = document.getElementById("Send_Btn");
+
+// Get the <span> element that closes the modal
+//var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+
+}
+
+// closes window
+function change() {
+  modal.style.display = "none";
+}
+
+
+</script>
+
+</html>
