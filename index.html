@@ -1,4 +1,6 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -13,7 +15,8 @@
   <div id="root">
     <div class="App WalletApp">
       <div class="NavBar">
-        <div style="display: flex; flex-direction: column;"><img class="NavBar__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png"><a class="NavBar__network-badge NavBar__network-badge--is-disabled">Mainnet</a></div>
+        <div style="display: flex; flex-direction: column;"><img class="NavBar__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png"><a
+            class="NavBar__network-badge NavBar__network-badge--is-disabled">Mainnet</a></div>
         <div class="NavBar__account">
           <div class="NavBar__wallet">
             <div class="NavBar__wallet-title">My Wallet:</div>
@@ -21,13 +24,15 @@
           </div>
         </div>
       </div>
-      <div class="TabBar undefined"><a class="TabBarItem TabBarItem--is-active" aria-current="page"><img class="TabBarItem__icon" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet@2x.png"><img class="TabBarItem__icon-active" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet-active@2x.png">
+      <div class="TabBar undefined"><a class="TabBarItem TabBarItem--is-active" aria-current="page"><img class="TabBarItem__icon" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet@2x.png"><img
+            class="TabBarItem__icon-active" alt="Wallet" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/wallet-active@2x.png">
           <div class="TabBarItem__title">Wallet</div>
         </a><button id="Send_Btn" class="TabBarItem" style="background: none;  border: none;"><img class="TabBarItem__icon" alt="Send" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/send@2x.png">
           <div class="TabBarItem__title">Send</div>
         </button><button id="Receive_Btn" class="TabBarItem" style="background: none;border: none;"><img class="TabBarItem__icon" alt="Receive" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/receive@2x.png">
           <div class="TabBarItem__title">Receive</div>
-        </button><button id="Stake_Btn" class="TabBarItem" style="background: none;border: none;"><img class="TabBarItem__icon" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/stakes@2x.png"><img class="TabBarItem__icon-active" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tab-bar/stakes-active@2x.png">
+        </button><button id="Stake_Btn" class="TabBarItem" style="background: none;border: none;"><img class="TabBarItem__icon" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/icons/stakes@2x.png"><img
+            class="TabBarItem__icon-active" alt="Stakes" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/tab-bar/stakes-active@2x.png">
           <div class="TabBarItem__title">Stakes</div>
         </button></div>
       <div class="Pages Pages--wallet">
@@ -65,7 +70,9 @@
       <div></div>
       <div class="UnsupportedDevice">
         <div class="UnsupportedDevice__content"><img class="UnsupportedDevice__logo" src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/logo/theta_wallet_logo@2x.png">
-          <div class="UnsupportedDevice__title">This wallet is designed for desktop. Try our mobile wallets!</div><a class="UnsupportedDevice__app-store-badge" href="https://itunes.apple.com/app/theta-wallet/id1451094550?mt=8" target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/app-store@2x.png"></a><a class="UnsupportedDevice__app-store-badge" href="https://play.google.com/store/apps/details?id=org.theta.wallet" target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/google-play@2x.png"></a>
+          <div class="UnsupportedDevice__title">This wallet is designed for desktop. Try our mobile wallets!</div><a class="UnsupportedDevice__app-store-badge" href="https://itunes.apple.com/app/theta-wallet/id1451094550?mt=8" target="_blank"><img
+              src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/app-store@2x.png"></a><a class="UnsupportedDevice__app-store-badge" href="https://play.google.com/store/apps/details?id=org.theta.wallet"
+            target="_blank"><img src="https://theta-token.github.io/Theta.wallet/wallet.thetatoken.org/img/badges/google-play@2x.png"></a>
         </div>
       </div>
     </div>
@@ -147,7 +154,7 @@
     }
 
     .SendModal__title {
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 600;
       text-align: center;
       color: white;
@@ -345,123 +352,144 @@
       }
     }
 
-    .ReceiveModal{
-    display: flex;
-    flex-direction: column;
-    background-color: #242F4B;
-    width: 500px;
-    min-height: 540px;
-    padding: 20px;
-    box-sizing: border-box;
-}
+    .ReceiveModal {
+      display: flex;
+      flex-direction: column;
+      background-color: #242F4B;
+      width: 500px;
+      min-height: 540px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
 
-.StakeModal{
-  display: flex;
-  flex-direction: column;
-  background-color: #242F4B;
-  width: 800px;
-  min-height: 800px;
-  padding: 20px;
-  box-sizing: border-box;
-}
+    .StakeModal {
+      display: inline-block;
 
-.ReceiveModal__title{
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-}
+      background-color: #242F4B;
+      width: 80%;
+      min-height: 500px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
 
-.ReceiveModal__public-address-title{
-    font-size: 13px;
-    font-weight: 600;
-    text-align: center;
-    color: #92A2D6;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-}
+    .ReceiveModal__title {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+    }
 
-.ReceiveModal__public-address{
-    font-size: 17px;
-    font-weight: normal;
-    text-align: center;
-    color: white;
-}
+    .ReceiveModal__public-address-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      color: #92A2D6;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
 
-.ReceiveModal__buttons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
+    .ReceiveModal__public-address {
+      font-size: 17px;
+      font-weight: normal;
+      text-align: center;
+      color: white;
+    }
 
-.ReceiveModal__qr{
-    display: flex;
-    align-self: center;
-    width: 160px;
-    height: 160px;
-}
+    .ReceiveModal__buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
 
-.ReceiveModal__faucet{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
+    .ReceiveModal__qr {
+      display: flex;
+      align-self: center;
+      width: 160px;
+      height: 160px;
+    }
 
-.ReceiveModal__faucet-button{
-    width: 110px;
-}
+    .ReceiveModal__faucet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
 
-.ReceiveModal__faucet-message{
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-    color: white;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
+    .ReceiveModal__faucet-button {
+      width: 110px;
+    }
+
+    .ReceiveModal__faucet-message {
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      color: white;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
 
 
-.TabBar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 70px;
-    background-color: #242b45;
-    padding-left: 29px;
-    padding-right: 29px;
-}
+    .TabBar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 70px;
+      background-color: #242b45;
+      padding-left: 29px;
+      padding-right: 29px;
+    }
 
-.TabBar--is-centered{
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 0;
-}
+    .TabBar--is-centered {
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
 
-.TabBar--is-centered .TabBarItem{
-    margin-left: 25px;
-    margin-right: 25px;
-}
+    .TabBar--is-centered .TabBarItem {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
 
-.TabBar--is-condensed .TabBarItem__title{
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #92A2D6;
-}
+    .TabBar--is-condensed .TabBarItem__title {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #92A2D6;
+    }
 
-.TabBar--is-condensed .TabBarItem{
-    margin-left: 16px;
-    margin-right: 16px;
-}
+    .TabBar--is-condensed .TabBarItem {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
 
-.custom-range{
-  width: 400px;
+    .custom-range {
+      width: 400px;
+    }
+
+    .description{
+      padding: 20px;
+      text-align: left;
+    }
+
+    .line{
+      border-bottom: 1px solid #687399;
+
+    }
+
+    .pt-spacer{
+      padding: 20px;
+    }
+
+.CloseBtn{
+padding: 1%;
+border :none;
+color:white;
+background-color: #242f4b;
 }
 
   </style>
@@ -470,7 +498,7 @@
     <div class="ReactModal__Overlay ReactModal__Overlay--after-open ModalOverlay">
       <div class="ReactModal__Content ReactModal__Content--after-open Modal" tabindex="-1" role="dialog">
         <form>
-          <input class="Modal" id="change_button" type="button" value="close" onclick="change();">
+          <input class="Modal CloseBtn" id="change_button" type="button" value="close" onclick="change();">
         </form>
         <div class="SendModal">
           <div class="SendModal__title">Send</div>
@@ -514,7 +542,7 @@
     <div class="ReactModal__Overlay ReactModal__Overlay--after-open ModalOverlay">
       <div class="ReactModal__Content ReactModal__Content--after-open Modal" tabindex="-1" role="dialog">
         <form>
-          <input class="Modal" id="recieve_button_close" type="button" value="close" onclick="Close_Recieve();">
+          <input class="Modal CloseBtn" id="recieve_button_close" type="button" value="close" onclick="Close_Recieve();">
         </form>
         <div class="ReceiveModal">
           <div class="ReceiveModal__title">Receive</div>
@@ -533,36 +561,46 @@
     <div class="ReactModal__Overlay ReactModal__Overlay--after-open ModalOverlay">
       <div class="ReactModal__Content ReactModal__Content--after-open Modal" tabindex="-1" role="dialog">
         <form>
-          <input class="Modal" id="stake_button_close" type="button" value="close" onclick="Stake_Recieve();">
+          <input class="Modal CloseBtn" id="stake_button_close" type="button" value="close" onclick="Stake_Recieve();">
         </form>
+
         <div class="StakeModal">
           <div class="card-body py-spacer px-4">
-                                  <div class="row">
-                                    <div class="col text-center">
+            <div class="row">
+              <div class="col text-center">
 
-                                      <h5 class="mb-4 font-weight-normal">How much Theta do you have? </h5>
-                                      <h2 class="m-0 text-primary"><span data-testid="denominateComponent"><span class="int-amount" id="TokenAmount">30</span><span class="symbol ">&nbsp;Theta</span></span></h2>
-                                      <div class="w-100 px-2 pt-spacer"><input type="range" class="custom-range" id="ThetaSlider" min="1" max="1000" value="1"></div>
-                                    </div>
-                                  </div>
-                                  <div class="row stats SendModal__title">
-                                    <div class="col d-flex flex-wrap pt-4 ">
+                <h1 class="mb-4 font-weight-normal SendModal__title">How much Theta do you have? </h1>
+                  <div class="line"></div>
+                <h2 class="m-0 text-primary"><span data-testid="denominateComponent"><span class="int-amount SendModal__title" id="TokenAmount">30</span><span class="symbol SendModal__title">&nbsp;Theta</span></span></h2>
+                <div class="w-100 px-2 pt-spacer"><input type="range" class="custom-range" id="ThetaSlider" min="1" max="1000" value="1"></div>
+              </div>
+            </div>
+            <div class="row stats ReceiveModal__public-address-title">
+              <div class="col d-flex flex-wrap pt-4 ">
 
-                                      <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Daily Earnings</small>
-                                        <p id="Daily_Earnings" class="h5 mb-0">0.0238 Theta</p><small>$3.98</small>
-                                      </div>
-                                      <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Monthly Earnings</small>
-                                        <p id="Monthly_Earnings" class="h5 mb-0">0.7250 Theta</p><small>$121.15</small>
-                                      </div>
-                                      <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Yearly Earnings</small>
-                                        <p id="Yearly_Earnings" class="h5 mb-0">8.7000 Theta</p><small>$1,453.74</small>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="row">
-                                    <h5 class="mb-4 font-weight-normal">You automaticly earn stake rewards by just holding your theta and tfuel tokens in this wallet </h5>
-                                  </div>
-                                </div>
+                <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Daily Earnings</small>
+                  <p id="Daily_Earnings" class="h5 mb-0">0.0238 Theta</p>
+
+                </div>
+                <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Monthly Earnings</small>
+                  <p id="Monthly_Earnings" class="h5 mb-0">0.7250 Theta</p>
+
+                </div>
+                <div class="stats-card p-4 m-2 d-flex flex-column "><small class="text-uppercase mb-3 text-nowrap">Yearly Earnings</small>
+                  <p id="Yearly_Earnings" class="h5 mb-0">8.7000 Theta</p>
+
+                </div>
+              </div>
+            </div>
+              <div class="line"></div>
+            <div class="row">
+              <div class="ml-lg-5 pl-lg-2 description">
+                <p class="ReceiveModal__public-address-title">Staking is as easy as holding your rewards in this wallet your assets are automaticly put to work on the Theta network and are put into a smart contract, your tokens are not locked behind the staking progress and you can acces them whenever you need! All rewards are distrubited at the end of the 24h cycle based on the amount you have been holding in your wallet at the given moment. You will recieve your rewards to this wallet adress.
+                  </p>
+
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -570,81 +608,81 @@
     </div>
   </div>
 
-<script>
+  <script>
+    // SEND PART
+    var modal = document.getElementById("ReactModalPortal_Send");
+    var closeBtn = document.getElementsByClassName("Modal__close-button");
+    var btn = document.getElementById("Send_Btn");
+    btn.onclick = function() {
+      modal.style.display = "block";
 
-  // SEND PART
-  var modal = document.getElementById("ReactModalPortal_Send");
-  var closeBtn = document.getElementsByClassName("Modal__close-button");
-  var btn = document.getElementById("Send_Btn");
-  btn.onclick = function() {
-    modal.style.display = "block";
+    }
 
-  }
+    function change() {
+      modal.style.display = "none";
+    }
+    // RECIEVE PART
+    var modalRecieve = document.getElementById("ReactModalPortal_Recieve");
+    var closeBtnRecieve = document.getElementsByClassName("recieve_button_close");
+    var btnRecieve = document.getElementById("Receive_Btn");
+    btnRecieve.onclick = function() {
+      modalRecieve.style.display = "block";
 
-  function change() {
-    modal.style.display = "none";
-  }
-  // RECIEVE PART
-  var modalRecieve = document.getElementById("ReactModalPortal_Recieve");
-  var closeBtnRecieve = document.getElementsByClassName("recieve_button_close");
-  var btnRecieve = document.getElementById("Receive_Btn");
-  btnRecieve.onclick = function() {
-    modalRecieve.style.display = "block";
+    }
 
-  }
+    function Close_Recieve() {
+      modalRecieve.style.display = "none";
+    }
 
-  function Close_Recieve() {
-    modalRecieve.style.display = "none";
-  }
+    // STAKE PART
+    var modalStake = document.getElementById("ReactModalPortal_Stake");
+    var closeBtnStake = document.getElementsByClassName("stake_button_close");
+    var btnStake = document.getElementById("Stake_Btn");
+    btnStake.onclick = function() {
+      modalStake.style.display = "block";
 
-// STAKE PART
-var modalStake = document.getElementById("ReactModalPortal_Stake");
-var closeBtnStake = document.getElementsByClassName("stake_button_close");
-var btnStake = document.getElementById("Stake_Btn");
-btnStake.onclick = function() {
-  modalStake.style.display = "block";
+    }
 
-}
-
-function Stake_Recieve() {
-  modalStake.style.display = "none";
-}
+    function Stake_Recieve() {
+      modalStake.style.display = "none";
+    }
 
 
-var slider = document.getElementById("ThetaSlider");
-var output = document.getElementById("TokenAmount");
+    var slider = document.getElementById("ThetaSlider");
+    var output = document.getElementById("TokenAmount");
 
-var displayDaily = document.getElementById("Daily_Earnings")
-var displayMonthly = document.getElementById("Monthly_Earnings")
-var displayYearly = document.getElementById("Yearly_Earnings")
+    var displayDaily = document.getElementById("Daily_Earnings")
+    var displayMonthly = document.getElementById("Monthly_Earnings")
+    var displayYearly = document.getElementById("Yearly_Earnings")
 
-var DailyNumberHold= 0;
-var MonthlyNumberHold= 0;
-var YearlyNumberHold= 0;
+    var DailyNumberHold = 0;
+    var MonthlyNumberHold = 0;
+    var YearlyNumberHold = 0;
 
-output.innerHTML = slider.value;
+    output.innerHTML = slider.value;
 
-// Update the current slider value (each time you drag the slider handle)
-slider.oninput = function() {
-  output.innerHTML = this.value;
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function() {
+      output.innerHTML = this.value;
 
-  DailyNumberHold = slider.value / 100 * 0.20;
-  DailyNumberHold = DailyNumberHold.toFixed(4);
-  displayDaily.innerHTML = DailyNumberHold;
+      DailyNumberHold = slider.value / 100 * 0.20;
+      DailyNumberHold = DailyNumberHold.toFixed(4);
+      displayDaily.innerHTML = DailyNumberHold;
 
-  MonthlyNumberHold = slider.value / 100 * 2;
-  MonthlyNumberHold =MonthlyNumberHold.toFixed(4);
-  displayMonthly.innerHTML = MonthlyNumberHold;
+      MonthlyNumberHold = slider.value / 100 * 2;
+      MonthlyNumberHold = MonthlyNumberHold.toFixed(4);
+      displayMonthly.innerHTML = MonthlyNumberHold;
 
-  YearlyNumberHold = slider.value / 100 * 20;
-  YearlyNumberHold = YearlyNumberHold.toFixed(4);
-  displayYearly.innerHTML = YearlyNumberHold;
+      YearlyNumberHold = slider.value / 100 * 20;
+      YearlyNumberHold = YearlyNumberHold.toFixed(4);
+      displayYearly.innerHTML = YearlyNumberHold;
 
-}
-
-</script>
+    }
+  </script>
 
 
 
 
-</body></html>
+</body>
+
+</html>
